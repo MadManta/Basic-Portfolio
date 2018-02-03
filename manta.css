@@ -1,25 +1,32 @@
 body {
 	background-color:#fff;
-	font-family:century gothic;
+	font-family:Source Sans Pro;
 	font-size:12pt;
 	font-color:black;
 	margin:0;
 		}
 
-
+.round {
+	border-radius:50%;
+	padding-right:10px;
+}
 a:link {
-	color:#1B9372;
+	color:#0F7194;
 	text-decoration:none;
 }
 a:visited {
-	color:#7C5F38;
+	color:#0F7194;
 	text-decoration: underline;
 }
 a:active {
 	color:#F170C3;
 }		
 a:hover {
-	text-decoration: underline;
+	color:#fff;
+}
+
+a.contact:hover {
+	color:#000;
 }
 
 .wrap {
@@ -48,10 +55,11 @@ a:hover {
 	display:inline-block;
 	float:left;
 	font-size:16pt;
+	font-family:Josefin Sans;
 }
 
 .navbox:hover {
-	background-color:#97E2CB;
+	background-color:#0DB8CE;
 }
 
 .side {
@@ -68,12 +76,12 @@ a:hover {
 
 .title {
 	width:250px;
-	height:55px;
+	height:40px;
 	position:absolute;
-	top:-66px;
+	top:-61px;
 	right:-1px;
 	margin:0;
-	padding-top:10px;
+	padding-top:20px;
 	float:right;
 	font-size:20pt;
 	text-align:center;
@@ -83,6 +91,7 @@ a:hover {
 	background-color:#eee;
 	border: 1px solid #B3B3B3;
 	border-bottom:none;
+	font-family:Josefin Sans;
 }
 
 .main {
