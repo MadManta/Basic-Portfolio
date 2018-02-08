@@ -41,6 +41,10 @@ a.contact:hover {
 	text-align:center;
 }
 
+.img-logo {
+	width: 1000px;
+}
+
 .nav {
 	width: 1000px;
 	margin:0;
@@ -123,5 +127,39 @@ a.contact:hover {
 	background-color:;
 	clear:both;
 	text-align:center;
+
+}
+
+@media screen and (max-width:980px) {
+	.wrap { width:800px }
+	.img-logo {width:800px;}
+	.logo {width:800px;}
+	.nav { width:800px }
+	.navbox { width:160px }
+	.side {width:175px;}
+	.main { width:500px }
+}
+
+@media screen and (max-width:768px) {
+	.wrap { width:600px }
+	.img-logo {width:600px;}
+	.logo {width:600px;}
+	.nav { width:600px;}
+	.navbox { width:120px }
+	.title {width:150px; font-size:14pt;}
+	.side {width:100px }
+	.main { width:400px }
+}
+
+@media screen and (max-width:640px) {
+	.wrap { width:500px }
+	.logo { width:500px; }
+	.img-logo {width:500px}
+	.nav { width:500px }
+	.navbox { width:100px }
+	.title {width:100px; font-size:14pt;}
+	.side {width:100px;}
+	.main { width:300px }
+	.round {display:none;}
 
 }
